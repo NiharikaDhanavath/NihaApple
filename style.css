@@ -97,10 +97,19 @@ body {
 }
 
 /* Products Section */
-.products {
-    padding: 4rem 2rem;
-    background-color: #ffffff;
-    text-align: center;
+.hero-content .btn {
+    padding: 0.8rem 1.5rem;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background-color: var(--button-hover);
 }
 
 .product-list {
