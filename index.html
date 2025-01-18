@@ -1,155 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NihaApple</title>
-    <style>
-        /* Global Styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        /* Header Styling with Background Image */
-        header {
-            background-image: url('header-bg.jpg'); /* Replace with your image file name */
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
-        }
-
-        .header-content h1 {
-            font-size: 3rem;
-            font-weight: bold;
-            margin: 0;
-        }
-
-        .header-content p {
-            font-size: 1.5rem;
-            margin: 10px 0 20px;
-        }
-
-        .header-content .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #0070c9;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            font-size: 1rem;
-        }
-
-        .header-content .btn:hover {
-            background-color: #005fa3;
-        }
-
-        /* Section Styling */
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .feature-section {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .feature {
-            background-color: #f8f8f8;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: calc(33% - 40px);
-            min-width: 300px;
-        }
-
-        .feature img {
-            width: 100px;
-            margin-bottom: 15px;
-        }
-
-        .feature h2 {
-            font-size: 1.5rem;
-            margin: 10px 0;
-        }
-
-        .feature p {
-            font-size: 1rem;
-            color: #666;
-        }
-
-        /* Footer Styling */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-
-        footer a {
-            color: #0070c9;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NihaApple</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="apple-icon.png" type="image/png">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="header-content">
-            <h1>Designed by Niharika</h1>
-            <p>Inspired by Apple</p>
-            <a href="products.html" class="btn">Explore My Products</a>
-        </div>
-    </header>
+  <header class="navbar">
+    <div class="logo">
+      <h1>Niha<span class="highlight">Apple</span></h1>
+    </div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!-- Main Section -->
-    <main>
-        <section class="feature-section">
-            <div class="feature">
-                <img src="llm-icon.png" alt="AI & ML">
-                <h2>AI & Machine Learning</h2>
-                <p>Proficient in building models for real-time object detection, fraud detection, and NLP applications using TensorFlow and Scikit-learn.</p>
-            </div>
-            <div class="feature">
-                <img src="web-icon.png" alt="Full-Stack Development">
-                <h2>Full-Stack Development</h2>
-                <p>Skilled in creating dynamic web applications using Angular, React, and Node.js, ensuring high performance and scalability.</p>
-            </div>
-            <div class="feature">
-                <img src="cloud-icon.png" alt="Cloud Development">
-                <h2>Cloud-Native Development</h2>
-                <p>Experienced with Azure, Docker, and Kubernetes to develop, deploy, and manage cloud-native applications.</p>
-            </div>
-            <div class="feature">
-                <img src="vision-icon.png" alt="Computer Vision">
-                <h2>Computer Vision</h2>
-                <p>Hands-on experience in designing systems for lane detection, image processing, and real-time video analysis with MATLAB and OpenCV.</p>
-            </div>
-            <div class="feature">
-                <img src="team-icon.png" alt="Team Leadership">
-                <h2>Agile Team Leadership</h2>
-                <p>Proven track record of managing cross-functional teams, leading projects from inception to completion while maintaining agile workflows.</p>
-            </div>
-        </section>
-    </main>
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h2>Designed by Niharika</h2>
+      <p>Transforming ideas into elegant solutions.</p>
+      <button onclick="scrollToSection('projects')">Explore Projects</button>
+    </div>
+  </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>© 2025 NihaApple. All rights reserved.</p>
-        <a href="index.html">Back to Home</a>
-    </footer>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Niharika, a passionate software developer dedicated to crafting innovative solutions. 
+      With a strong focus on design and functionality, I build experiences that delight users.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A brief description of your first amazing project.</p>
+        <a href="#" class="button">View Details</a>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>A brief description of your second amazing project.</p>
+        <a href="#" class="button">View Details</a>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>A brief description of your third amazing project.</p>
+        <a href="#" class="button">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Let’s connect and build something extraordinary together!</p>
+    <a href="mailto:niharika@example.com" class="button">Get in Touch</a>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 NihaApple. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
