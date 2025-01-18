@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Products - NihaApple</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: calc(33% - 40px);
+            min-width: 300px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100px;
+            margin-bottom: 15px;
+        }
+
+        .product h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .back-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #0070c9;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            width: 200px;
+            font-weight: bold;
+        }
+
+        .back-btn:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Products</h1>
+        <p>Discover the unique skills and solutions I bring to the table.</p>
+    </header>
+
+    <main>
+        <div class="product-container">
+            <div class="product">
+                <img src="ai-icon.png" alt="AI Solutions">
+                <h2>AI & Machine Learning</h2>
+                <p>Custom models for real-time predictions, fraud detection, and NLP, tailored to meet business goals.</p>
+            </div>
+            <div class="product">
+                <img src="web-dev-icon.png" alt="Web Development">
+                <h2>Full-Stack Development</h2>
+                <p>Responsive and scalable web apps with modern frameworks like React and Angular.</p>
+            </div>
+            <div class="product">
+                <img src="cloud-dev-icon.png" alt="Cloud Solutions">
+                <h2>Cloud Solutions</h2>
+                <p>End-to-end deployment with Kubernetes, Docker, and Azure for seamless cloud integrations.</p>
+            </div>
+            <div class="product">
+                <img src="cv-icon.png" alt="Computer Vision">
+                <h2>Computer Vision</h2>
+                <p>Systems for lane detection, image analysis, and video streaming using OpenCV and MATLAB.</p>
+            </div>
+            <div class="product">
+                <img src="leadership-icon.png" alt="Team Leadership">
+                <h2>Agile Leadership</h2>
+                <p>Driving innovation with cross-functional teams and agile practices for successful project delivery.</p>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </main>
+</body>
+</html>
