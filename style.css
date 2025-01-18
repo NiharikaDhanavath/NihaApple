@@ -98,21 +98,24 @@ body {
 
 /* About Section */
 .about {
-  padding: 4rem 2rem;
-  background-color: var(--background-color);
-  text-align: center;
+    padding: 4rem 2rem; /* Adjust padding for proper spacing */
+    background-color: var(--background-color);
+    text-align: center;
 }
 
 .about h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+    font-size: 2rem; /* Ensure consistent font size */
+    margin-bottom: 1rem; /* Add spacing below the heading */
+    color: var(--primary-color); /* Use the primary color for the heading */
+    font-weight: bold; /* Make the heading bold for emphasis */
 }
 
 .about p {
-  font-size: 1.1rem;
-  color: var(--secondary-color);
-  max-width: 600px;
-  margin: 0 auto;
+    font-size: 1.2rem; /* Slightly larger font size for better readability */
+    color: var(--secondary-color);
+    max-width: 600px; /* Constrain text width for better alignment */
+    margin: 0 auto; /* Center the paragraph */
+    line-height: 1.8; /* Improve text spacing */
 }
 
 
