@@ -229,11 +229,52 @@ body {
     color: var(--secondary-color);
 }
 
+/* Contact Section */
+.contact {
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+}
+
+.contact .button {
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact .button:hover {
+  background-color: var(--button-hover);
+}
+
 /* Footer */
 .footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: #ffffff;
-    font-size: 0.9rem;
-    color: var(--secondary-color);
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-list {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
