@@ -1,71 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NihaApple</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="apple-icon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NihaApple</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">
-      <h1>Niha<span class="highlight">Apple</span></h1>
-    </div>
-    <nav class="nav-links">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <h1>Niha<span class="highlight">Apple</span></h1>
+        </div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <section id="hero" class="hero">
-    <div class="hero-content">
-      <h2>Designed by Niharika</h2>
-      <p>Transforming ideas into elegant solutions.</p>
-      <button onclick="scrollToSection('projects')">Explore Projects</button>
-    </div>
-  </section>
+    <!-- Hero Section with Background Image -->
+    <section id="hero" class="hero" style="background-image: url('your-image.jpg');">
+        <div class="hero-content">
+            <h2>Designed by Niharika</h2>
+            <p>Transforming ideas into elegant solutions.</p>
+            <a href="#products" class="btn">Explore My Products</a>
+        </div>
+    </section>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      Hi, I’m Niharika, a passionate software developer dedicated to crafting innovative solutions. 
-      With a strong focus on design and functionality, I build experiences that delight users.
-    </p>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m Niharika, a passionate software developer dedicated to crafting innovative solutions. 
+            With a strong focus on design and functionality, I build experiences that delight users.
+        </p>
+    </section>
 
-  <section id="projects" class="projects">
-    <h2>Featured Projects</h2>
-    <div class="project-list">
-      <div class="project-card">
-        <h3>Project One</h3>
-        <p>A brief description of your first amazing project.</p>
-        <a href="#" class="button">View Details</a>
-      </div>
-      <div class="project-card">
-        <h3>Project Two</h3>
-        <p>A brief description of your second amazing project.</p>
-        <a href="#" class="button">View Details</a>
-      </div>
-      <div class="project-card">
-        <h3>Project Three</h3>
-        <p>A brief description of your third amazing project.</p>
-        <a href="#" class="button">View Details</a>
-      </div>
-    </div>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A brief description of your first amazing project.</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A brief description of your second amazing project.</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+        </div>
+    </section>
 
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Let’s connect and build something extraordinary together!</p>
-    <a href="mailto:niharika@example.com" class="button">Get in Touch</a>
-  </section>
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>My Products</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <h3>Full-Stack Development</h3>
+                <p>Experienced in building and optimizing scalable front-end and back-end architectures using Angular, React, Python, and Node.js, delivering high-performance solutions.</p>
+            </div>
+            <div class="product-card">
+                <h3>Adaptable Projects</h3>
+                <p>Diverse portfolio of projects, including lane detection systems for autonomous vehicles and API integrations, showcasing adaptability across industries.</p>
+            </div>
+            <div class="product-card">
+                <h3>AI & Machine Learning</h3>
+                <p>Adept in machine learning, AI, computer vision, and advanced data analysis using TensorFlow, Scikit-learn, OpenCV, and MATLAB, with applications in NLP and fraud detection.</p>
+            </div>
+            <div class="product-card">
+                <h3>Cloud-Native Development</h3>
+                <p>Skilled in cloud-native application development using Azure, CI/CD pipelines, Docker, and Kubernetes to streamline deployments and enhance system reliability.</p>
+            </div>
+            <div class="product-card">
+                <h3>Agile Leadership</h3>
+                <p>Proven leadership in agile environments, managing cross-functional teams, and excelling in customer service with a track record of resolving technical challenges.</p>
+            </div>
+        </div>
+    </section>
 
-  <footer class="footer">
-    <p>&copy; 2025 NihaApple. All rights reserved.</p>
-  </footer>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Let’s connect and build something extraordinary together!</p>
+        <a href="mailto:niharika@example.com" class="btn">Get in Touch</a>
+    </section>
 
-  <script src="script.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 NihaApple. All rights reserved.</p>
+    </footer>
 </body>
 </html>
