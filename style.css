@@ -96,6 +96,26 @@ body {
     background-color: var(--button-hover);
 }
 
+/* About Section */
+.about {
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
 /* Products Section */
 .hero-content .btn {
     padding: 0.8rem 1.5rem;
