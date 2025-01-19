@@ -229,6 +229,15 @@ body {
     color: var(--secondary-color);
 }
 
+/* Product Card Images */
+.product-card .product-image {
+    width: 100%; /* Make the image fit the card's width */
+    height: 150px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+    border-radius: 10px 10px 0 0; /* Rounded corners on the top */
+    margin-bottom: 1rem; /* Spacing below the image */
+}
+
 /* Contact Section */
 .contact {
   padding: 4rem 2rem;
